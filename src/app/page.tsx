@@ -9,11 +9,12 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <div>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
         <button type="button" onClick={() => router.push("/dashboard")}>
           Dashboard
         </button>
         <Link href="/dashboard">Dashboard</Link>
+        <Link href="/about">about</Link>
       </div>
     </main>
   );
