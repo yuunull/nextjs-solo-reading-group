@@ -16,6 +16,11 @@ export default function Home() {
         <Link href="/dashboard">Dashboard</Link>
         <Link href="/about">about</Link>
       </div>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <Link href="/blog/aaa">Blog aaa</Link>
+        <Link href="/blog/bbb">Blog bbb</Link>
+        <Link href="/blog/ccc">Blog ccc</Link>
+      </div>
     </main>
   );
 }
