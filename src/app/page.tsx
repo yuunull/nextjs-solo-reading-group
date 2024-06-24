@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import styles from "./page.module.css";
+import Image from "next/image";
+import profilePic from "../../public/next.svg";
 
 export default function Home() {
   const router = useRouter();
@@ -22,6 +24,9 @@ export default function Home() {
         <Link href="/blog/aaa">Blog aaa</Link>
         <Link href="/blog/bbb">Blog bbb</Link>
         <Link href="/blog/ccc">Blog ccc</Link>
+      </div>
+      <div>
+        <Image src={profilePic} alt="Picture of the author" />
       </div>
     </main>
   );
