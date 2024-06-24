@@ -6,6 +6,8 @@ import styles from "./page.module.css";
 
 export default function Home() {
   const router = useRouter();
+  // const res = await fetch("https://...", { next: { tags: ["collection"] } });
+  // const data = await res.json();
 
   return (
     <main className={styles.main}>
