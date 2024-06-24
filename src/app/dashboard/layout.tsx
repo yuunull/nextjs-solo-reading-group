@@ -1,3 +1,5 @@
+import styles from "./styles.module.css";
+
 export default function DashboardLayout({
   children,
   analytics,
@@ -6,7 +8,7 @@ export default function DashboardLayout({
   analytics: React.ReactNode;
 }) {
   return (
-    <section>
+    <section className={styles.dashboard}>
       <div>dashboard専用の共通のレイアウト</div>
       <nav></nav>
 
